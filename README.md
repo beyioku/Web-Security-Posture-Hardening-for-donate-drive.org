@@ -55,10 +55,15 @@ The implementation of these headers creates a defense-in-depth approach, prevent
 
 | Security Header | Primary Attack Mitigation | Description |
 | :--- | :--- | :--- |
-| `CSP` | `Cross-Site Scripting (XSS)` | Blocks the browser from executing scripts or loading content from unauthorized domains. |
-| `HSTS` | `Protocol Downgrade` | Eliminates risk of Man-in-the-Middle (MITM) attacks by ensuring all traffic is encrypted. |
-| `X-Frame-Options` | `Clickjacking` | Prevents the site from being embedded in a malicious iframe to trick users into clicking. |
+| `CSP` | Cross-Site Scripting (XSS) | Blocks the browser from executing scripts or loading content from unauthorized domains. |
+| `HSTS` | Protocol Downgrade | Eliminates risk of Man-in-the-Middle (MITM) attacks by ensuring all traffic is encrypted. |
+| `X-Frame-Options` | Clickjacking | Prevents the site from being embedded in a malicious iframe to trick users into clicking. |
 | `X-Content-Type-Options` | MIME-Sniffing | Stops attackers from disguising malicious files (like scripts) as safe resources. |
-| `Referrer-Policy` | `Sensitive Data Leakage` | Restricts the exposure of internal URLs or parameters when navigating to external websites. |
+| `Referrer-Policy` | Sensitive Data Leakage | Restricts the exposure of internal URLs or parameters when navigating to external websites. |
 | `Permissions-Policy` | Feature Abuse | Blocks unauthorized access to powerful device features (e.g., camera, microphone) by third-party scripts. |
 
+### Before & After Security Audit
+To visually demonstrate the project's impact, the following images showcase the security grading before and after the header implementation.
+**Before Implementation (Failing State):**
+
+**After Implementation (A+ Grade):**
