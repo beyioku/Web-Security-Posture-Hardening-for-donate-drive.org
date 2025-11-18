@@ -38,15 +38,15 @@ The final, functional HTTP security headers configured via Cloudflare (using the
 *(The strict policy used to achieve the A+ grade for documentation)*
 
 ```text
-default-src 'self'; 
-script-src 'self' [https://www.googletagmanager.com](https://www.googletagmanager.com) [https://www.google-analytics.com](https://www.google-analytics.com); 
-style-src 'self' [https://fonts.googleapis.com](https://fonts.googleapis.com); 
-font-src 'self' [https://fonts.gstatic.com](https://fonts.gstatic.com);
-img-src 'self' data: [https://www.google-analytics.com](https://www.google-analytics.com); 
-connect-src 'self' [https://www.googletagmanager.com](https://www.googletagmanager.com) [https://www.google-analytics.com](https://www.google-analytics.com); 
-frame-src 'self' [https://www.youtube.com](https://www.youtube.com) [https://player.vimeo.com](https://player.vimeo.com);
-object-src 'none'; 
-frame-ancestors 'self'; 
+default-src 'self';
+script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
+style-src 'self' https://fonts.googleapis.com;
+font-src 'self' https://fonts.gstatic.com;
+img-src 'self' data: https://www.google-analytics.com;
+connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
+frame-src 'self' https://www.youtube.com https://player.vimeo.com;
+object-src 'none';
+frame-ancestors 'self';
 upgrade-insecure-requests;
 ```
 
