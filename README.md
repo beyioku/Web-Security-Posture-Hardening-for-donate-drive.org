@@ -12,7 +12,7 @@ This project documents the successful implementation of critical HTTP security h
 * **Platform:** WordPress
 * **CDN/Proxy:** Cloudflare (Primary implementation tool)
 * **Methodology:** Cloudflare Transform Rules (Modify Response Headers)
-* **Auditing Tool:** Snyk Security Headers Scanner
+* **Auditing Tool:** Security Headers Scanner
 
 ## Key Accomplishments
 
