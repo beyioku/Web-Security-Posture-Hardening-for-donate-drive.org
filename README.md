@@ -64,6 +64,8 @@ The implementation of these headers creates a defense-in-depth approach, prevent
 
 ### Before & After Security Audit
 To visually demonstrate the project's impact, the following images showcase the security grading before and after the header implementation.
-**Before Implementation (Failing State):**
 
+**Before Implementation (Failing State):**
+![images](images/BeforeImplementation.jpeg)
 **After Implementation (A+ Grade):**
+![images](images/AfterImplementation.png)
