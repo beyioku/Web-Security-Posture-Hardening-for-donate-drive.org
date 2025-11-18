@@ -16,7 +16,7 @@ This project documents the successful implementation of critical HTTP security h
 
 ## Key Accomplishments
 
-* **Security Transformation:** Elevated the site's security posture from a failing state to a certified **A+** grade by implementing a full suite of best-practice HTTP Security Headers.
+* **Security Transformation:** Elevated the site's security posture from a failing state **D** to a certified **A+** grade by implementing a full suite of best-practice HTTP Security Headers.
 * **Cloudflare Integration:** Leveraged the network edge (Cloudflare) for efficient, centralized header deployment, minimizing latency and origin server configuration complexity.
 * **Custom CSP Development:** Designed and rigorously tested a functional **Content-Security-Policy (CSP)** that allowed essential third-party services (Google Analytics, Google Fonts) while maintaining maximal defense against unauthorized script execution (XSS).
 * **Compliance:** Ensured adherence to contemporary web security and privacy standards (e.g., Referrer-Policy for data leakage control).
