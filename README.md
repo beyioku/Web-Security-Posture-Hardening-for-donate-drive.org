@@ -52,3 +52,12 @@ upgrade-insecure-requests;
 ### Attacks Mitigated by This Configuration
 The implementation of these headers creates a defense-in-depth approach, preventing or mitigating entire classes of attacks:
 
+| Security Header | Primary Attack Mitigation | Description |
+| :--- | :--- | :--- |
+| `CSP` | `Cross-Site Scripting (XSS)` | Blocks the browser from executing scripts or loading content from unauthorized domains. |
+| `HSTS` | `Protocol Downgrade` | Eliminates risk of Man-in-the-Middle (MITM) attacks by ensuring all traffic is encrypted. |
+| `X-Frame-Options` | `Clickjacking` | Prevents the site from being embedded in a malicious iframe to trick users into clicking. |
+| `X-Content-Type-Options` | MIME-Sniffing | Stops attackers from disguising malicious files (like scripts) as safe resources. |
+| `Referrer-Policy` | `Sensitive Data Leakage` | Restricts the exposure of internal URLs or parameters when navigating to external websites. |
+| `Permissions-Policy` | Feature Abuse | Blocks unauthorized access to powerful device features (e.g., camera, microphone) by third-party scripts. |
+
