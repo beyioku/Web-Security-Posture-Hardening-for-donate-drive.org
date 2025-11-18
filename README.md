@@ -27,7 +27,7 @@ The final, functional HTTP security headers configured via Cloudflare (using the
 
 | Header Name | Final Configuration Value | Purpose |
 | :--- | :--- | :--- |
-| `Strict-Transport-Security` | `max-age=31536000; includeSubDomains` | Enforces HTTPS encryption. |
+| `Strict-Transport-Security` | `max-age=12 months; includeSubDomains` | Enforces HTTPS encryption. |
 | `X-Content-Type-Options` | `nosniff` | Blocks MIME-sniffing attacks. |
 | `Referrer-Policy` | `strict-origin-when-cross-origin` | Protects user privacy by limiting referrer information. |
 | `X-Frame-Options` | (Handled by CSP) | Prevents Clickjacking. |
