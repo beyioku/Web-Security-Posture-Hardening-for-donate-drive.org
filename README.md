@@ -48,3 +48,7 @@ frame-src 'self' [https://www.youtube.com](https://www.youtube.com) [https://pla
 object-src 'none'; 
 frame-ancestors 'self'; 
 upgrade-insecure-requests;
+
+### Attacks Mitigated by This Configuration
+The implementation of these headers creates a defense-in-depth approach, preventing or mitigating entire classes of attacks:
+
